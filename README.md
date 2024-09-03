@@ -53,7 +53,8 @@ This pattern helps reduce the need for creating instances from scratch, improvin
 ## Design Diagram
 
 The design is represented using a UML Class Diagram, which illustrates the relationships between the classes:
-![ClassDiagram_Prototype](https://github.com/user-attachments/assets/6cd8cee8-0c60-4e85-9b88-f83339777c08)
+![ClassDiagram_Prototype](https://github.com/user-attachments/assets/44761cac-b6c2-4bea-a290-1421f648803c)
+
 
 - **Inheritance**: The `Champion` and `Destroyer` classes inherit from the `InGameCharacterPrototype` class, while the `Sword` and `Staff` classes inherit from the `WeaponPrototype` class.
 - **Composition**: The `InGameCharacterPrototype` class has a `WeaponPrototype` object, allowing each character to be equipped with a weapon.
